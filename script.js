@@ -26,9 +26,7 @@ function fetchExams() {
             { name: "NDA Exam", info: "National Defence Academy entrance exam for 12th pass candidates.", age: "16.5-19.5 years", url: "https://www.nda.nic.in" },
             { name: "IBPS Clerk", info: "Clerical exam for public sector banks in India.", age: "20-28 years", url: "https://www.ibps.in" },
             { name: "Railway Loco Pilot", info: "Assistant Loco Pilot exam in Indian Railways.", age: "18-28 years", url: "https://www.rrbcdg.gov.in" },
-            { name: "Air Force Group X & Y", info: "Recruitment exam for technical and non-technical trades in Indian Air Force.", age: "17-21 years", url: "https://airmenselection.cdac.in" },
-            { name: "JEE Mains", info: "Joint Entrance Examination for admission to undergraduate engineering programs.", age: "No upper age limit", url: "https://jeemain.nta.nic.in" },
-            { name: "JEE Advanced", info: "Advanced level of JEE for admission to IITs.", age: "No upper age limit", url: "https://jeeadv.ac.in" }
+            { name: "Air Force Group X & Y", info: "Recruitment exam for technical and non-technical trades in Indian Air Force.", age: "17-21 years", url: "https://airmenselection.cdac.in" }
         ],
         "bsc": [
             { name: "IBPS PO", info: "Probationary Officer exam for various public sector banks.", age: "20-30 years", url: "https://www.ibps.in" },
