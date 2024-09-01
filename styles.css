@@ -394,3 +394,28 @@ body, html {
     overflow: hidden;
     /* If you need specific styling adjustments */
 }
+/* Adjust Exam Item Styling */
+.exam-item {
+    margin: 10px 0; /* Reduce vertical margin */
+    padding: 10px; /* Reduce padding */
+    border-radius: 8px; /* Slightly smaller border radius */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 0.9rem; /* Slightly smaller font size */
+    background-color: #f9f9f9; /* Light background color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for Exam Items */
+.exam-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .exam-item {
+        margin: 8px 0; /* Adjust margin for smaller screens */
+        padding: 8px; /* Adjust padding for smaller screens */
+        font-size: 0.8rem; /* Adjust font size for smaller screens */
+    }
+}
